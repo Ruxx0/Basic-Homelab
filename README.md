@@ -34,12 +34,20 @@ Scan our network to detect the metasploitable using the "nmap" command: <br/>
 <img src="https://i.imgur.com/Ia71wsw.png" height="80%" width="80%" alt="Homelab setup & penetrating metasploitable Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Do a "sudo apt update" to update all kali dependecies & Wait for process to complete (may take some time):  <br/>
+<img src="https://i.imgur.com/1G4WJyf.png" height="80%" width="80%" alt="Homelab setup & penetrating metasploitable Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+We install Green bone using the command "sudo apt install gvm -y":  <br/>
+<img src="https://i.imgur.com/iTO6aBz.png" height="80%" width="80%" alt="Homelab setup & penetrating metasploitable Steps"/>
+<br />
+  <br />
+we install all the databases,create permissions, and install services for greenbone to work using the command "sudo gvm-setup":  <br/>
+<img src="https://i.imgur.com/H5P6c5i.png" height="80%" width="80%" alt="Homelab setup & penetrating metasploitable Steps"/>
+<br />
+  <br />
+We install Green bone using the command "sudo apt install gvm -y":  <br/>
+<img src="https://i.imgur.com/iTO6aBz.png" height="80%" width="80%" alt="Homelab setup & penetrating metasploitable Steps"/>
 <br />
 <br />
 Observe the wiped disk:  <br/>

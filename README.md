@@ -46,8 +46,20 @@ we install all the databases,create permissions, and install services for greenb
 <img src="https://i.imgur.com/H5P6c5i.png" height="80%" width="80%" alt="Homelab setup & penetrating metasploitable Steps"/>
 <br />
   <br />
-We install Green bone using the command "sudo apt install gvm -y":  <br/>
-<img src="https://i.imgur.com/iTO6aBz.png" height="80%" width="80%" alt="Homelab setup & penetrating metasploitable Steps"/>
+We open up our web browser and go to the web address "http://127.0.0.1:9392" , accept risks . <br/>
+<img src="https://i.imgur.com/XcHQoSl.png" height="80%" width="80%" alt="Homelab setup & penetrating metasploitable Steps"/>
+  <img src="https://i.imgur.com/tDCBCWN.png" height="80%" width="80%" alt="Homelab setup & penetrating metasploitable Steps"/>
+<br />
+  <br />
+We login using the default username "admin" and password.  <br/>
+<img src="https://i.imgur.com/6ncxP9I.png" height="80%" width="80%" alt="Homelab setup & penetrating metasploitable Steps"/>
+<br />
+  <br />
+To reset your password if you don't remember it use the command "sudo  runuser -u_gvm -- gvmd --user=admin --new-password="input new password here"  <br/>
+<img src="https://i.imgur.com/a9ZiDbo.png" height="80%" width="80%" alt="Homelab setup & penetrating metasploitable Steps"/>
+<br />
+   <br />To start up OPENVAS by Greenbone use the command "sudo gvm-start"   <br/>
+<img src="https://i.imgur.com/UmHRDbv.png" height="80%" width="80%" alt="Homelab setup & penetrating metasploitable Steps"/>
 <br />
 <br />
 Observe the wiped disk:  <br/>

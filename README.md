@@ -62,8 +62,8 @@ To reset your password if you don't remember it use the command "sudo  runuser -
 <img src="https://i.imgur.com/UmHRDbv.png" height="80%" width="80%" alt="Homelab setup & penetrating metasploitable Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+UNFINISHED:  <br/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
